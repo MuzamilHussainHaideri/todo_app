@@ -15,6 +15,9 @@ gem "sqlite3", "~> 1.4"
 
 gem "puma", "~> 5.0"
 
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+
+
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
 
