@@ -17,6 +17,17 @@ gem "puma", "~> 5.0"
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
+gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
+
+gem 'sass-rails'
+
+gem 'bootstrap-sass-extras', '~> 0.1.0'
+
+gem 'devise', '~> 4.8'
+
+gem 'simple_form', '~> 5.1'
+
+gem 'jquery-rails', '~> 4.4'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
@@ -72,4 +83,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+end
+group :production do
+  gem 'rails_12factor', '~> 0.0.3'
+  gem 'pg', '~> 1.2', '>= 1.2.3'
 end
