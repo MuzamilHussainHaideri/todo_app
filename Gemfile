@@ -9,10 +9,6 @@ gem "rails", "~> 7.0.0"
 
 gem "sprockets-rails"
 
-
-gem "sqlite3", "~> 1.4"
-
-
 gem "puma", "~> 5.0"
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
@@ -87,4 +83,5 @@ end
 group :production do
   gem 'rails_12factor', '~> 0.0.3'
   gem 'pg', '~> 1.2', '>= 1.2.3'
+  gem "sqlite3", "~> 1.4"
 end
