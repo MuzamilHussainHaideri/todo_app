@@ -25,6 +25,8 @@ gem 'simple_form', '~> 5.1'
 
 gem 'jquery-rails', '~> 4.4'
 
+gem 'bootswatch', '~> 4.3', '>= 4.3.1'
+
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
 

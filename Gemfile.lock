@@ -73,6 +73,8 @@ GEM
       sassc (>= 2.0.0)
     bootstrap-sass-extras (0.1.0)
       rails (>= 3.1.0)
+    bootswatch (4.3.1)
+      autoprefixer-rails (>= 6.0.3)
     builder (3.2.4)
     capybara (3.36.0)
       addressable
@@ -252,6 +254,7 @@ DEPENDENCIES
   bootsnap
   bootstrap-sass (~> 3.3, >= 3.3.6)
   bootstrap-sass-extras (~> 0.1.0)
+  bootswatch (~> 4.3, >= 4.3.1)
   capybara
   debug
   devise (~> 4.8)
