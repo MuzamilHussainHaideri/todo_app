@@ -22,7 +22,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Contact Us", pages_contact_path %></li>
         <li><%= link_to "About Us", pages_about_path %></li>
-        
+        <li><%= link_to "Create New Articles", new_article_path %> </li>
         <% if !current_user %>
         <li><%= link_to "Sign_up", new_user_registration_path %></li>
         <li><%= link_to "Sign_in", new_user_session_path %></li>
